@@ -4,5 +4,20 @@
 <dict>
     <key>NSPrivacyTracking</key>
     <false/>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>Analytics</string>
+            <key>NSPrivacyCollectedDataUsage</key>
+            <string>App Functionality</string>
+        </dict>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>Screen View</string>
+            <key>NSPrivacyCollectedDataUsage</key>
+            <string>App Functionality</string>
+        </dict>
+    </array>
 </dict>
 </plist>
