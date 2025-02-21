@@ -24,7 +24,9 @@ let package = Package(
     targets: [
         .target(
             name: "Charts",
-            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")]
+            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
+            path: "Source/Charts",
+            resources: [.copy("PrivacyInfo.xcprivacy")]
         )
     ],
     swiftLanguageVersions: [.v5]
