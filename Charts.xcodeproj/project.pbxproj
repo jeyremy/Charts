@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,6 +52,7 @@
 		383D68A13E1C3D6A251E5147 /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274116834B1B0345D622E027 /* CandleChartDataSet.swift */; };
 		3B11556EB7DC034E2FC958E4 /* BarChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3F5E1A69EC06E86505F7B1 /* BarChartTests.swift */; };
 		3CBE95F1E9394FA08CDCF31E /* BarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543729805D897CC03E5F78D3 /* BarHighlighter.swift */; };
+		3FB27B632D6874A000746BDE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3FB27B622D6874A000746BDE /* PrivacyInfo.xcprivacy */; };
 		40C82F2209E1BA9E41E8F3DA /* ChartColorTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6227A646166E248F90F86AD /* ChartColorTemplates.swift */; };
 		41B13F3179ACB5A3837C6E55 /* YAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688B80F1AA88AE54152BE768 /* YAxisRenderer.swift */; };
 		41BEBF8BDB9DC403B5697D67 /* XAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C02C3AF5C92FCFC18224C35 /* XAxisRenderer.swift */; };
@@ -219,6 +220,7 @@
 		3D64616883374310C505EC39 /* Highlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlight.swift; path = Source/Charts/Highlight/Highlight.swift; sourceTree = "<group>"; };
 		3ED23C354AFE81818D78E645 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = Source/Charts/Utils/Platform.swift; sourceTree = "<group>"; };
 		3F8146ABC9FC311AF8CA699C /* CandleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataProvider.swift; path = Source/Charts/Interfaces/CandleChartDataProvider.swift; sourceTree = "<group>"; };
+		3FB27B622D6874A000746BDE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3FDA09EF973925A110506799 /* ChartUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartUtils.swift; path = Source/Charts/Utils/ChartUtils.swift; sourceTree = "<group>"; };
 		429E88F2729735DC092EE556 /* LineChartDataSetProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSetProtocol.swift; path = Source/Charts/Data/Interfaces/LineChartDataSetProtocol.swift; sourceTree = "<group>"; };
 		45C6D3723C4E001B119CA0C8 /* BarLineChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineChartViewBase.swift; path = Source/Charts/Charts/BarLineChartViewBase.swift; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 		865A1CF149F52850CAB7F177 = {
 			isa = PBXGroup;
 			children = (
+				3FB27B622D6874A000746BDE /* PrivacyInfo.xcprivacy */,
 				AB2D554102718F209377399E /* Products */,
 				033FD152BB2F906750106A85 /* Frameworks */,
 				20C350D33133A4D89BB365B1 /* Source */,
@@ -834,6 +837,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB27B632D6874A000746BDE /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
